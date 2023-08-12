@@ -1,0 +1,40 @@
+body{
+    background-image: url(cafe.jpg);
+    background-size: cover;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+h2 {
+    font-size: 48px;
+    color: white;
+    margin-top: 100px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#increment-btn {
+    background-color: maroon;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#save-btn {
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+}
